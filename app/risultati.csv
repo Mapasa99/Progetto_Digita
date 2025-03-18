@@ -1,0 +1,6 @@
+id,nome,citta,paese,superficie_mq,costo_milioni,similarita
+1,High Line Park,New York,USA,21000,153.0,0.4245454240218885
+37,Eco-Park,Addis Abeba,Etiopia,35000,25.0,0.19396447213458012
+31,Green Oasis,Nairobi,Kenya,30000,20.0,0.19271203455897548
+35,Urban Green,Lusaka,Zambia,20000,15.0,0.12926428900771916
+10,Baltic Tech Hub,Liepaja,Lettonia,12000,25.0,0.12872558128564943

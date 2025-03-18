@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "nome": "High Line Park",
+        "citta": "New York",
+        "paese": "USA",
+        "superficie_mq": 21000,
+        "costo_milioni": 153.0,
+        "similarita": 0.4245454240218885
+    },
+    {
+        "id": 37,
+        "nome": "Eco-Park",
+        "citta": "Addis Abeba",
+        "paese": "Etiopia",
+        "superficie_mq": 35000,
+        "costo_milioni": 25.0,
+        "similarita": 0.1939644721345801
+    },
+    {
+        "id": 31,
+        "nome": "Green Oasis",
+        "citta": "Nairobi",
+        "paese": "Kenya",
+        "superficie_mq": 30000,
+        "costo_milioni": 20.0,
+        "similarita": 0.1927120345589754
+    },
+    {
+        "id": 35,
+        "nome": "Urban Green",
+        "citta": "Lusaka",
+        "paese": "Zambia",
+        "superficie_mq": 20000,
+        "costo_milioni": 15.0,
+        "similarita": 0.1292642890077191
+    },
+    {
+        "id": 10,
+        "nome": "Baltic Tech Hub",
+        "citta": "Liepaja",
+        "paese": "Lettonia",
+        "superficie_mq": 12000,
+        "costo_milioni": 25.0,
+        "similarita": 0.1287255812856494
+    }
+]

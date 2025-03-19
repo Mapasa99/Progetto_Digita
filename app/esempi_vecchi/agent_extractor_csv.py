@@ -8,7 +8,7 @@ import re
 from botocore.config import Config
 from langchain_aws import ChatBedrock
 from langchain.prompts import PromptTemplate
-from services.pdf_processor import extract_text_from_pdf
+from app.pdf_processor import extract_text_from_pdf
 from dotenv import load_dotenv
 
 # Debug: Stampiamo un messaggio per verificare che il file sia stato avviato

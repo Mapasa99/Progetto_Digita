@@ -21,3 +21,8 @@ fastapi
 uvicorn
 streamlit
 streamlit-folium
+plotly
+fastapi
+uvicorn
+pdfplumber
+requests

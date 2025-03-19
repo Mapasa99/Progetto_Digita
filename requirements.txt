@@ -16,5 +16,8 @@ numpy
 reportlab
 matplotlib
 seaborn
+reportlab
+fastapi
+uvicorn
 streamlit
-plotly
+streamlit-folium

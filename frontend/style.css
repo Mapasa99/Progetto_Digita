@@ -1,0 +1,145 @@
+/* style.css */
+
+/* Stili personalizzati per il corpo della pagina */
+body {
+    color: #333; /* Testo principale più scuro */
+    background-color: #f8f9fa; /* Sfondo leggermente grigio chiaro */
+    font-family: sans-serif; /* Font di sistema predefinito, pulito e leggibile */
+}
+
+/* Stili per il menu laterale (sidebar) */
+.sidebar .sidebar-content {
+    background-color: #f0f2f6; /* Grigio chiaro per il sidebar */
+    color: #212529; /* Testo del sidebar più scuro */
+}
+
+/* Stili per l'header del sidebar (Login Dipendente, etc.) */
+.sidebar .st-ee {
+    padding-top: 0; /* Riduci padding top per avvicinare all'inizio */
+    padding-bottom: 10px; /* Aggiunto padding bottom per separare dal contenuto sottostante */
+    margin-bottom: 15px; /* Aggiunto margine inferiore per separazione */
+    border-bottom: 1px solid #dee2e6; /* Linea divisoria sottile e chiara */
+}
+
+/* Stili per le sezioni del menu sidebar (TOOL REGENAI, DOCUMENTAZIONE) */
+p.sidebar-menu-section {
+    font-weight: bold; /* Testo in grassetto per le sezioni */
+    color: #004d99; /* Blu più intenso - Colore primario Comune di Napoli (esempio) */
+    margin-top: 15px; /* Spazio sopra le sezioni */
+    margin-bottom: 5px; /* Spazio sotto le sezioni */
+    padding-left: 5px;  /* Leggero rientro testo */
+    border-left: 3px solid #004d99; /* Barra laterale blu per evidenziare la sezione */
+}
+
+
+/*  Pulsanti - STILE COMUNE DI NAPOLI */
+div.stButton > button:first-child {
+    background-color: #007bff; /* Blu primario (simile a quello del Comune) */
+    color: white; /* Testo bianco per contrasto */
+    border: 1px solid #007bff; /* Bordo blu in tinta */
+    border-radius: 0.375rem; /* Angoli leggermente arrotondati */
+    padding: 0.5rem 1rem; /* Padding interno per dimensione confortevole */
+    font-weight: 500; /* Testo leggermente più in grassetto */
+    line-height: 1.5; /* Interlinea standard */
+    text-align: center; /* Testo centrato */
+    text-decoration: none; /* Nessuna sottolineatura */
+    vertical-align: middle; /* Allineamento verticale al centro */
+    cursor: pointer; /* Cursore "mano" al passaggio del mouse */
+    user-select: none; /* Non selezionabile */
+    -webkit-appearance: none; /* Reset stile browser specifico */
+    -moz-appearance: none;
+    appearance: none;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; /* Transizione fluida */
+}
+
+div.stButton > button:first-child:hover {
+    background-color: #0056b3; /* Blu più scuro all'hover */
+    border-color: #0056b3; /* Bordo blu più scuro all'hover */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); /* Ombra leggera all'hover */
+}
+
+div.stButton > button:first-child:focus {
+    outline: 0; /* Rimozione outline predefinito focus */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); /* Ombra focus simile all'hover */
+}
+
+div.stButton > button:first-child:active {
+    background-color: #004085; /* Blu ancora più scuro al click */
+    border-color: #004085; /* Bordo blu ancora più scuro al click */
+    box-shadow: none; /* Rimozione ombra al click */
+}
+
+/* Stili aggiuntivi per sezioni, titoli, testo, etc. (opzionale) - In base alle tue preferenze */
+.stApp h1 {
+    color: #004d99; /* Blu per i titoli principali */
+}
+
+.stApp h2, .stApp h3, .stApp h4, .stApp h5, .stApp h6 {
+    color: #0056b3; /* Blu leggermente più chiaro per sottotitoli */
+}
+
+.stApp .stText {
+    color: #343a40; /* Testo normale, grigio scuro */
+}
+
+.streamlit-expanderHeader {
+    font-weight: bold; /* Titoli degli expander in grassetto */
+    color: #0056b3 !important; /* Blu per i titoli degli expander, importante per override */
+}
+
+.streamlit-expanderContent {
+    padding-left: 15px; /* Rientro per il contenuto degli expander */
+}
+
+.stTextInput > div > div > input {
+    border: 1px solid #ced4da; /* Bordo input text */
+    border-radius: 0.25rem; /* Angoli input text */
+    padding: 0.375rem 0.75rem; /* Padding input text */
+}
+
+.stNumberInput > div > div > input {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 0.375rem 0.75rem;
+}
+
+.stTextArea > div > div > textarea {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 0.375rem 0.75rem;
+}
+
+.stSelectbox > div > div > div { /* Stile per il menu a tendina (selectbox) */
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+.stSelectbox > div > div > button {
+    text-align: left; /* Allineamento testo a sinistra nel bottone selectbox */
+}
+
+
+.stFileUploader > div > div > div { /* Stile per il file uploader */
+    border: 2px dashed #ced4da; /* Bordo tratteggiato */
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: #f8f9fa; /* Sfondo leggermente più chiaro */
+    text-align: center;
+}
+.stFileUploader > div > div > div p { /* Testo interno file uploader */
+    color: #6c757d; /* Testo grigio medio */
+}
+.stFileUploader > div > div > div:hover { /* Hover file uploader */
+    background-color: #e9ecef; /* Sfondo leggermente più scuro all'hover */
+    border-color: #007bff; /* Bordo blu all'hover */
+    cursor: pointer; /* Cursore "mano" all'hover */
+}
+
+
+/* Regola per iframe (PDF viewer) - per centrare il contenuto */
+iframe {
+    display: block; /* Importante per margin auto su iframe */
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ced4da; /* Bordo sottile per l'iframe */
+    border-radius: 0.5rem; /* Angoli arrotondati per l'iframe */
+}

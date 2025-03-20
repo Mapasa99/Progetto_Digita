@@ -83,7 +83,7 @@ def show_latest_projects():
         response = requests.get(f"{BACKEND_URL}/latest_projects/")
         if response.status_code == 200:
             data = response.json()
-            projects = data.get("latest_projects", [])
+            projects = data.get("latest_projects", []) # "projects" corrisponde a "all_projects"
 
             if projects:
                 st.success("✅ Dati caricati con successo!")
